@@ -1,0 +1,43 @@
+.home-container {
+    background-color: #f0f8ff; /* Açık mavi arka plan */
+    height: 100vh; /* Tüm ekranı kapla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-box {
+    background-color: #ffffff; /* Beyaz içerik kutusu */
+    border: 2px solid #add8e6; /* Tatlı mavi çerçeve */
+    border-radius: 15px; /* Kenarları daha yuvarla */
+    padding: 40px; /* İç boşluk */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Hafif bir gölge */
+    text-align: center; /* Ortala */
+    width: 500px; /* Kutunun genişliği artırıldı */
+    height: auto; /* Yükseklik içeriğe bağlı */
+}
+
+.home-title {
+    font-size: 3rem; /* Daha büyük başlık */
+    color: #0056b3; /* Tatlı bir mavi renk */
+    margin-bottom: 20px; /* Başlık altına boşluk */
+}
+
+.home-subtitle {
+    font-size: 1.5rem; /* Daha büyük alt metin */
+    color: #6c757d; /* Hafif gri */
+    margin-bottom: 30px;
+}
+
+.home-button {
+    margin: 15px; /* Butonlar arasına daha fazla boşluk */
+    width: 120px; /* Daha geniş butonlar */
+    height: 50px; /* Daha yüksek butonlar */
+    font-size: 1.2rem; /* Daha büyük yazı */
+    border-radius: 10px; /* Buton kenarlarını yuvarla */
+}
+
+button:hover {
+    transform: scale(1.1); /* Hover efekti büyütme */
+    transition: 0.3s ease-in-out; /* Geçiş animasyonu */
+}
